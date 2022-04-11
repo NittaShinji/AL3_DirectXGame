@@ -19,7 +19,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	// ゲームウィンドウの作成
 	win = WinApp::GetInstance();
 	win->CreateGameWindow("LE2A_17_ニッタ_シンジ_AL3");
-	/*win = new WinApp();　
+	/*win = new WinApp();　 
 	win->CreateGameWindow("LE2A_17_ニッタ_シンジ_AL3");*/
 
 	// DirectX初期化処理
